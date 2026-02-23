@@ -1,10 +1,10 @@
 #include <iostream>
-#include "windows.h"
+#include "Windows.h"
 
 int main() {
-    SetConsoleOutputCP(1251);
+   SetConsoleOutputCP(1251);
 
-    std::cout << "Hello, Git! абракадабра   " << std::endl;
+    std::cout << "Hello, Git! abrakadabra abrakadabra  " << std::endl;
 
     return 0;
 
