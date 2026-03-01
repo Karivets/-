@@ -15,9 +15,14 @@ int main() {
     int g, k, count;
 
     while (fscanf(file, "%d %d %d", &g, &k, &count) != EOF) {
-        Money price = { g, (short int)k };
+        if (count < 0) {
+            printf("Помилка: Кількість товару не може бути від'ємною. Пропускаємо запис.\n", count);
+            continue; 
+        }
+
+        Money price = { g, (short int)k }; 
         Money subTotal = multiply(price, count);
-        totalSum = add(totalSum, subTotal);
+        totalSum = add(totalSum, subTotal); 
     }
     fclose(file);
 
