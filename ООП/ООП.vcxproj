@@ -127,12 +127,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Abstraktna_fabruka.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Animal_2.cpp" />
+    <ClCompile Include="Dyhotomia_class.cpp" />
+    <ClCompile Include="Fasad.cpp" />
+    <ClCompile Include="Fasade_1.cpp" />
     <ClCompile Include="main_lab_00.cpp" />
     <ClCompile Include="main_lab_01.cpp" />
+    <ClCompile Include="main_lab_02_01.cpp" />
+    <ClCompile Include="main_lab_02_02.cpp" />
+    <ClCompile Include="main_lab_03.cpp" />
+    <ClCompile Include="main_lab_04.cpp" />
+    <ClCompile Include="main_lab_4_1.cpp" />
+    <ClCompile Include="main_lab_5.cpp" />
+    <ClCompile Include="main_lab_6.cpp" />
     <ClCompile Include="Money_lab_01.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Animal_2.h" />
+    <ClInclude Include="Dyhotomia_class.h" />
     <ClInclude Include="Money.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

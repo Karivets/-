@@ -2,7 +2,7 @@
 #include <iostream>
 #include "windows.h"
 #include "money.h" 
-
+/*
 int main() {
     SetConsoleOutputCP(1251);
     FILE* file = fopen("input.txt", "r");
@@ -35,3 +35,4 @@ int main() {
 
     return 0;
 }
+*/
